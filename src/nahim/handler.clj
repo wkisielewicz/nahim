@@ -38,4 +38,3 @@
 
 (def app
   (handler/site app-routes))
-Now lets add basic auth depende
