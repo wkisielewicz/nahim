@@ -1,22 +1,24 @@
 body {
-  margin-top: -20px;
-  background: white;
+    margin-top: -20px;
+    background: white;
+    font-family: 'Cairo', sans-serif;
 }
 
-.main_content {
+.main_content {}
 
-}
 
 /* it manipulate navbar margins */
+
 
 /*.container {
     margin: 0;
 }*/
 
-
 .navbar-default {
-    background-color: transparent;;
-    border-color: transparent;;
+    background-color: transparent;
+    ;
+    border-color: transparent;
+    ;
     color: black;
 }
 
@@ -24,43 +26,61 @@ body {
     border-color: #e7e7e7;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
     color: white;
     background-color: transparent;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
     color: white;
+    font-size: 18px;
 }
 
 .container-fluid {
-     padding-right: 0;
-     padding-left: 0;
-     margin-right: auto;
-     margin-left: auto;
-     /*background: black;*/
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /*background: black;*/
 }
 
 .intro {
-  /*position: fixed;*/
-  background-image: url("/images/run.jpg");
-  background-position: center center;
-  /*margin: 0;*/
-  left: 0 !important;
-  right: 0 !important;
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size: cover;
-  width: 100%;
-  height:100%;
-  background-color: #464646;
+    /*position: fixed;*/
+    background-image: url("/images/background.jpg");
+    background-position: center center;
+    /*margin: 0;*/
+    left: 0 !important;
+    right: 0 !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #464646;
+}
+
+.intro-title {
+  margin-top: 300px;
+  text-align: center;
+}
+
+.sentence {
+  color: white !important;
+  font-size: 40px;
+  font-weight: 200;
 
 }
 
-.posts {
-
+.albert {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-right: 200px;
 }
+.posts {}
 
-.footer {
-
-}
+.footer {}
