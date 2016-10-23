@@ -1,6 +1,7 @@
 # nahim
 
 A simple blog in Clojure as a single page website. It is based on Bootstrap framework. From the admin dashboard you can add, delete and edit posts.
+I followed: http://markgandolfo.com/blog/2014/01/10/a-simple-blog-in-clojure/.
 
 ## Prerequisites
 
