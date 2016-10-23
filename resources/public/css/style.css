@@ -86,6 +86,10 @@ body {
     padding: 40px 200px 40px 200px;
 }
 
+.container-title {
+  text-align:center;
+}
+
 hr.line-style {
   border: 0;
   height: 1px;
@@ -97,6 +101,7 @@ hr.line-style {
 
 .middle {
     min-height: 150px;
+    padding: 40px 200px 40px 200px;
     background: #F4F4F4;
 }
 
@@ -105,4 +110,22 @@ hr.line-style {
     text-align: center;
     color: white;
     min-height: 150px;
+}
+
+.footer-nav ul{
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 10;
+}
+
+.footer-nav ul li  {
+  display: inline;
+  text-align: center;
+  margin-left: 4em;
+
+}
+
+.footer-nav ul li a{
+  color: #D4D4D4;
+
 }
