@@ -28,9 +28,9 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#posts">Posts</a></li>
+                    <li><a href="#about">Contact</a></li>
                 </ul>
                 </ul> -->
             </div>
@@ -39,7 +39,7 @@
     </nav>
     <!-----------------------------main------------------------------------------->
 
-    <div class="container-fluid main_content">
+    <div id="home" class="container-fluid main_content">
         <div class="intro">
             <div class="col-md-12 intro-title">
                 <h1 class="row sentence">
@@ -57,9 +57,9 @@
 
         <!------------------------------posts---------------------------------------->
 
-        <div class="col-md-12 posts">
+        <div id="posts" class="col-md-12 posts">
             <sections>
-                <h1 class="posts-title">Recent posts</h1>
+                <h1 class="container-title">Recent posts</h1>
                 <hr class="line-style">
                 {{#posts}}
                     <h3>{{title}}</h3>
@@ -72,7 +72,8 @@
 
         <!-------------------------- middle section --------------------------------->
 
-        <div class="col-md-12 middle">
+        <div id="about" class="col-md-12 middle">
+            <h1 class="container-title">About</h1>
 
         </div>
 
@@ -80,7 +81,15 @@
 
         <footer>
             <div class="col-md-12 footer">
-                <div style="margin-top:100px;">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#posts">Posts</a></li>
+                        <li><a href="#about">Contact</a></li>
+                        <li><a href="https://github.com/wkisielewicz">Github</a></li>
+                    </ul>
+                </div>
+                <div style="margin-top:40px;color:#D4D4D4; margin-left: 20px;">
                     Created by Wioletta Kisielewicz
                 </div>
             </div>
