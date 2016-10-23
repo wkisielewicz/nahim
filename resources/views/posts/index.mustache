@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Running world</title>
+    <title>Clojure blog</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -14,34 +14,35 @@
 </head>
 
 <body>
-  <!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Project name</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse navbar-right">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      </ul> -->
-    </div><!--/.nav-collapse -->
-  </div>
-</nav>
+                <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                </ul> -->
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
     <!-----------------------------main------------------------------------------->
 
     <div class="container-fluid main_content">
         <div class="intro">
-          <div class="col-md-12 intro-title">
-            <h1 class="row sentence">
+            <div class="col-md-12 intro-title">
+                <h1 class="row sentence">
               <p style="margin-bottom: 32px;"><span style="background: rgb(54, 25, 25);background: rgba(54, 25, 25, .5);">
                 "There are only two ways to live your life.</span>
               </p>
@@ -50,7 +51,7 @@
             <p class="albert pull-right">
               Albert Einstein
             </p></h1>
-          </div>
+            </div>
             <!-- <img src="/images/run.jpg" alt="Mountain View" style="width:100%;height:100%px;"> -->
         </div>
 
@@ -58,7 +59,7 @@
 
         <div class="col-md-12 posts">
             <sections>
-                <h1>Posty</h1>
+                <h1 class="posts-title">Posty</h1>
                 {{#posts}}
                     <h2>{{title}}</h2>
                     <datetime>{{created_at}}</datetime>
@@ -68,9 +69,19 @@
             </sections>
         </div>
 
+        <!-------------------------- middle section --------------------------------->
+
+        <div class="col-md-12 middle">
+
+        </div>
+
         <!---------------------------footer------------------------------------------>
+
         <footer>
             <div class="col-md-12 footer">
+                <div style="margin-top:100px;">
+                    Created by Wioletta Kisielewicz
+                </div>
             </div>
         </footer>
 </body>
